@@ -21,10 +21,12 @@ input, button, textarea, select { font: inherit }
 }
 section *:last-child { margin-bottom: 0 !important }
 
+body { background-color: lightblue; }
 
 h2 {
     font-size: 56px;
     margin-bottom: 4px;
+    color: blue;
 }
 
 h3 {
@@ -35,4 +37,31 @@ h3 {
 p {
     font-size: 20px;
     margin-bottom: 16px
+}
+
+a { color: blue; }
+
+.section-1 {
+    background: lemonchiffon;
+}
+
+.section-2 {
+    background: lightgreen;
+}
+
+.section-3 {
+    background: lightblue;
+}
+
+.section-4 {
+    background: darkblue;
+}
+
+.section-5 {
+    background: lightcoral;
+}
+
+.section-4 h2,
+section-4 p {
+    color: white;
 }

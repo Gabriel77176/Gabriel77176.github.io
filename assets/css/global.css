@@ -26,6 +26,7 @@ input, button, textarea, select { font: inherit }
 body {
     text-align: center;
     font-family: sans-serif;
+    background-color: lightgreen;
 }
 
 h1 {
@@ -56,3 +57,4 @@ p {
     margin-bottom: 16px;
 }
 
+a { color: darkgreen; }
