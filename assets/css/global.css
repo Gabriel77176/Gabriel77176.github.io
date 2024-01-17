@@ -58,3 +58,17 @@ p {
 }
 
 a { color: darkgreen; }
+
+#main-image-container{
+    text-align: center;
+    width: 100%;
+}
+
+#main-image{
+    border-radius: 50%;
+    height: 500px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
