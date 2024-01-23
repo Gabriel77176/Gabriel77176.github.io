@@ -13,6 +13,15 @@ input, button, textarea, select { font: inherit }
 /* ============ CUSTOM PROPERTIES ============  */
 
 :root {
+    /* Alternatives to default sans-serif font */
+    --font-sans: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
+
+    /* Alternatives to default serif font */
+    --font-serif: Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
+
+    /* Alternatives to default monospace font */
+    --font-monospace: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
     /* Color variables */
     --black-000: #000000;
     --white-000: #ffffff;
@@ -231,7 +240,7 @@ input, button, textarea, select { font: inherit }
 }
 
 /* Global font */
-body { font-family: sans-serif }
+body { font-family: var(--font-sans) }
 
 
 /*  ====================== SECTIONS ======================== */
@@ -305,3 +314,52 @@ section h2 { font-size: 48px }
 section h3 { font-size: 32px }
 
 section p { font-size: 18px }
+
+
+.section-selector-1 { background-color: #000 }
+.section-selector-1 .badge span { background-color: #fff; color: #000 }
+.section-selector-1 h2, .section-selector-1 p { 
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+}
+.section-selector-1 h2 { letter-spacing: 1px }
+.section-selector-1 h2 span { color: var(--amber-400) }
+
+
+.section-selector-2 {
+    background-image: linear-gradient(90deg, var(--sky-100), var(--sky-300))
+ }
+ .section-selector-2 h2 { font-family: 'Outfit', sans-serif }
+ .section-selector-2 h2 span { color: var(--red-600) }
+
+
+.section-selector-3 { background-color: var(--yellow-300) }
+.section-selector-3 h2 { font-family: 'Inter', sans-serif }
+
+.section-selector-3 h2 span { font-weight: 600; font-family: 'Inter', sans-serif; color: #000 }
+
+
+.section-selector-4 { background-color: var(--trend-800) }
+.section-selector-4 .badge span {
+    background-color: transparent;
+    color: var(--sky-400);
+}
+.section-selector-4 h2 { color: #fff; font-family: 'Inter', monospace; }
+.section-selector-4 p { color: var(--gray-200) }
+
+
+.section-selector-5 { background-color: var(--trend-050) }
+.section-selector-5 h2,
+.section-selector-5 h3,
+.section-selector-5 p { font-family: 'Playfair Display', serif; }
+
+
+.section-selector-6 { background-color: var(--purple-200) }
+.section-selector-6 h2 {
+    letter-spacing: 3px;
+    color: var(--blue-800);
+    font-family: 'Bebas Neue', serif;
+}
+.section-selector-6 h2 span { color: var(--red-600)}
+
+.section-selector-6 p{font-family: 'Inter', serif;}
