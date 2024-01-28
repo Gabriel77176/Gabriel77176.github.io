@@ -80,3 +80,24 @@ a { color: darkgreen; }
     background-color: whitesmoke;
     border-radius: 50%;
 }
+
+.floating-button {
+    position: fixed;
+    bottom: 20px; /* Ajustez la distance par rapport au bas */
+    left: 20px; /* Ajustez la distance par rapport à la gauche */
+    background-color: rgb(145, 106, 0); /* Couleur de fond */
+    color: #fff; /* Couleur du texte */
+    border: 2px solid #000; /* Bordure noire de 2 pixels */
+    border-radius: 50%; /* Pour rendre le bouton rond */
+    padding: 50px;
+    text-decoration: none;
+    font-size: 14px; /* Ajustez la taille de la police selon vos préférences */
+    display: inline-block;
+    font-size: large;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  
+  .floating-button:hover {
+    background-color: #2980b9; /* Couleur de fond au survol */
+  }
