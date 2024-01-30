@@ -1,0 +1,122 @@
+/*  ============= WEB BROWSER RESETS ============ */
+* { margin: 0; padding: 0; border: none }
+*, *::before, *::after { box-sizing: border-box }
+html { height: 100%; font-size: 100%; font: inherit; vertical-align: baseline;
+scroll-behavior: smooth; scroll-padding-top: 20px }
+body { line-height: 1.5; min-height: 100vh }
+@media (max-width: 767px ) { body { text-rendering: optimizeSpeed } }
+@media (min-width: 768px ) { body { text-rendering: optimizeLegibility } }
+img { width: 100%; height: auto; display: block }
+input, button, textarea, select { font: inherit }
+
+/* ====== PADDING AROUND WEB PAGE BODY CONTENT ======  */
+/* Desktops */
+@media (min-width: 768px) {
+   header { padding: 4% 20% }
+}
+
+/* Mobiles */
+@media (max-width: 767px) {
+   header { padding: 8% 5% }
+}
+
+
+/* ================= ENDS ================ */
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+    background-image: url("../img/backgroung.jpg");
+    background-size: cover;
+    height: 90vh;
+    /* background-attachment: fixed; */
+}
+
+h1 {
+    font-size: 78px;
+    font-weight: normal;
+    letter-spacing: -2px;
+    padding-bottom: 12px;
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 42px;
+    letter-spacing: 6px;
+    padding-bottom: 48px;
+    line-height: 1.2;
+}
+
+h3 {
+    color: white;
+    font-size: xx-large;
+    padding: 48px;
+    padding: 20px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin-bottom: 2%;
+}
+
+p {
+    font-size: 20px;
+    padding-bottom: 16px;
+}
+
+.main-image-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#main-image{
+    border-radius: 50%;
+    height: 500px;
+    width: auto;
+    display: block;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.links-div {
+    padding: 50px;
+    padding: 5%;
+    background-color: rgb(46, 46, 49);
+    border-radius: 8px;
+    box-shadow: rgba(0,0,0,0.7);
+}
+
+.floating-button {
+    position: fixed;
+    bottom: 20px; /* Ajustez la distance par rapport au bas */
+    left: 20px; /* Ajustez la distance par rapport à la gauche */
+    background-color: rgb(145, 106, 0); /* Couleur de fond */
+    color: #fff; /* Couleur du texte */
+    border: 2px solid #000; /* Bordure noire de 2 pixels */
+    border-radius: 50%; /* Pour rendre le bouton rond */
+    padding: 50px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-decoration: none;
+    font-size: 14px; /* Ajustez la taille de la police selon vos préférences */
+    display: inline-block;
+    font-size: large;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  
+  .floating-button:hover {
+    background-color: #2980b9; /* Couleur de fond au survol */
+    transition: 1.5s;
+    letter-spacing: 1.2px;
+  }
+
+.links-div p a { 
+    color: white;
+    text-decoration: none;
+}
+
+.links-div p a:hover { 
+    color: green;
+    text-decoration: none;
+}
