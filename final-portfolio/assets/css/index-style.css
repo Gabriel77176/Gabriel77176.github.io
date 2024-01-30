@@ -38,6 +38,20 @@ body {
     color: #fff;
 }
 
+.project-title-div {
+  text-align: center;
+  background: var(--timeline-body-bg);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: var(--font-monospace);
+}
+
+.project-title {
+  color: white;
+  font-size: large;
+  font-weight: 700;
+}
+
 .color-1 {
   background: var(--gray-3);
 }
@@ -468,4 +482,10 @@ footer {
   height: 10vh;
   background: linear-gradient(180deg, var(--gray-2), var(--gray-3));
   /* padding-bottom: 3%; before: 0% */
+}
+
+.project-block {
+  height: 275px;
+  width: 450px;
+  background: white;
 }
