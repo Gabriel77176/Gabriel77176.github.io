@@ -16,6 +16,9 @@
 	<link rel="stylesheet" href="../assets/css/custom.css" />
     <link rel="stylesheet" href="assets/css/global.css">
 
+	<!-- Font Awesome 6 icons. Delete if not using. -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 	<!-- Google tag (gtag.js) -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-QM8NDF1W37"></script>
 	<script>
@@ -28,10 +31,21 @@
 </head>
 <body>
     <main>
-	<header>
-		<h1>Welcome</h1>
-		<h2>Gabriel Dezon</h2>
-		<div class="main-image-container" style="text-align: center;"><img id="main-image" src="assets/img/main-image.jpg" alt="img"></div>
+	
+	<header class="theme-dark hero-bg text-center-mobile desktop-min-height-90vh text-center-desktop">
+
+		<div class="container-text">
+			<h1 class="text-shadow">Gabriel Dezon</h1>
+			<h2 class="text-shadow">This is a website create during a semester at Dorset College.</h2>
+		</div>
+		<div class="container-media">
+				<video loop="" playsinline="" muted="" autoplay="" poster="https://lunevedy.com/ui/assets/videos/poster-focal-center.jpg" class="background-video" disablepictureinpicture="" preload="auto" src="assets/videos/hero-bg.mp4"><source src="assets/videos/hero-bg.mp4" type="video/mp4"></video></div>
+
+		<div class="container-overlay"></div>
+
+		<div class="container-btn">
+				<a href="final-portfolio/index.html" class="btn btn-solid btn-pill btn-shadow"><span>Portfolio</span><i class="fas fa-arrow-right"></i></a>
+			</div>
 	</header>
 
     <div class="links-div">
@@ -111,7 +125,6 @@
 
 		</div>
 	</section>
-    <a href="final-portfolio/index.html" class="floating-button">Portfolio</a>
     </main>
 </body>
 </html>
