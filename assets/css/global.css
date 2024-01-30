@@ -12,12 +12,12 @@ input, button, textarea, select { font: inherit }
 /* ====== PADDING AROUND WEB PAGE BODY CONTENT ======  */
 /* Desktops */
 @media (min-width: 768px) {
-   body { padding: 4% 20% }
+   header { padding: 4% 20% }
 }
 
 /* Mobiles */
 @media (max-width: 767px) {
-   body { padding: 8% 5% }
+   header { padding: 8% 5% }
 }
 
 
@@ -26,44 +26,47 @@ input, button, textarea, select { font: inherit }
 body {
     text-align: center;
     font-family: sans-serif;
-    /* background-color: lightgreen; */
     background-image: url("../img/backgroung.jpg");
     background-size: cover;
+    height: 90vh;
+    /* background-attachment: fixed; */
 }
 
 h1 {
     font-size: 78px;
     font-weight: normal;
     letter-spacing: -2px;
-    margin-bottom: 12px;
+    padding-bottom: 12px;
     line-height: 1.2;
 }
 
 h2 {
     font-size: 42px;
     letter-spacing: 6px;
-    margin-bottom: 48px;
+    padding-bottom: 48px;
     line-height: 1.2;
 }
 
 h3 {
-    font-size: 24px;
-    margin-top: 48px;
-    margin-bottom: 20px;
+    color: white;
+    font-size: xx-large;
+    padding: 48px;
+    padding: 20px;
     line-height: 1.2;
     text-transform: uppercase;
+    margin-bottom: 2%;
 }
 
 p {
     font-size: 20px;
-    margin-bottom: 16px;
+    padding-bottom: 16px;
 }
 
-a { color: darkgreen; }
-
-#main-image-container{
+.main-image-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    width: 100%;
 }
 
 #main-image{
@@ -71,14 +74,16 @@ a { color: darkgreen; }
     height: 500px;
     width: auto;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
 }
 
-#links-div {
+.links-div {
+    padding: 50px;
     padding: 5%;
-    background-color: whitesmoke;
-    border-radius: 50%;
+    background-color: rgb(46, 46, 49);
+    border-radius: 8px;
+    box-shadow: rgba(0,0,0,0.7);
 }
 
 .floating-button {
@@ -102,4 +107,16 @@ a { color: darkgreen; }
   
   .floating-button:hover {
     background-color: #2980b9; /* Couleur de fond au survol */
+    transition: 1.5s;
+    letter-spacing: 1.2px;
   }
+
+.links-div p a { 
+    color: white;
+    text-decoration: none;
+}
+
+.links-div p a:hover { 
+    color: green;
+    text-decoration: none;
+}
