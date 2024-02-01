@@ -1,0 +1,43 @@
+:root {
+    --color-very-dark: #0f172a;
+    --color-dark: #04364A;
+    --color-medium: #176B87;
+    --color-light: #64CCC5;
+    --color-very-light: #DAFFFB;
+}
+
+
+nav.theme-dark, nav.theme-dark ul.links-wrapper.active { background-color: var(--color-dark) }
+
+header.theme-dark   { background: linear-gradient(90deg, var(--color-medium),var(--color-light)) }
+
+header.theme-dark  h1 { color: var(--color-very-light); }
+
+section.theme-dark   { background-color: var(--color-dark)}
+
+footer.theme-dark   { background-color: var(--color-medium) }
+
+
+
+header .col-text h2, .col-1 > h3 { line-height: 1.8 }
+
+.portrait-img {
+    /* margin-left: 50%; */
+    transform: scaleX(-1);
+    max-height: fit-content;
+    border-radius: 50%;
+    height: 600px;
+    width: 600px;
+}
+
+.portrait-figure {
+    border-radius: 50%;
+    background: white;
+    width: auto;
+    height: 600px;
+    width: 600px;
+}
+
+header {
+    height: 90vh;
+}
