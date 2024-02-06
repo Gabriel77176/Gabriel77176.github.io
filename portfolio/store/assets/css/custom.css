@@ -1,0 +1,31 @@
+:root {
+    --color-very-dark: #0f172a;
+    --color-dark: #04364A;
+    --color-medium: #176B87;
+    --color-light: #64CCC5;
+    --color-very-light: #DAFFFB;
+}
+
+
+nav, nav ul.links-wrapper.active { background-color: var(--color-very-dark) }
+
+header { background: linear-gradient(90deg, var(--color-medium),var(--color-light)) }
+
+header  h1 { color: var(--color-very-light); }
+
+section   { background-color: var(--color-dark)}
+
+footer   { background-color: var(--color-medium) }
+
+
+
+header .col-text h2, .col-1 > h3 { line-height: 1.8 }
+
+header {
+    height: 90vh;
+}
+
+.brand {
+    max-width: 15%;
+    height: auto;
+}

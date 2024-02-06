@@ -26,12 +26,20 @@ header .col-text h2, .col-1 > h3 { line-height: 1.8 }
     transform: scaleX(-1);
     max-height: fit-content;
     border-radius: 50%;
+    height: 600px;
+    width: 600px;
 }
 
 .portrait-figure {
     border-radius: 50%;
     background: white;
     width: auto;
+    height: 600px;
+    width: 600px;
+}
+
+header {
+    height: 90vh;
 }
 
 .brand {

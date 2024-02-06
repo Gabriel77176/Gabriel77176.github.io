@@ -21,17 +21,8 @@ footer.theme-dark   { background-color: var(--color-medium) }
 
 header .col-text h2, .col-1 > h3 { line-height: 1.8 }
 
-.portrait-img {
-    /* margin-left: 50%; */
-    transform: scaleX(-1);
-    max-height: fit-content;
-    border-radius: 50%;
-}
-
-.portrait-figure {
-    border-radius: 50%;
-    background: white;
-    width: auto;
+header {
+    height: 90vh;
 }
 
 .brand {
