@@ -6,6 +6,10 @@
     --color-very-light: #DAFFFB;
 }
 
+h1, h2, h3 {
+    font-family: "Kanit";
+}
+
 
 nav.theme-dark, nav.theme-dark ul.links-wrapper.active { background-color: var(--color-very-dark) }
 

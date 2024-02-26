@@ -1,25 +1,35 @@
 /* Add your custom CSS here */
-body { font-family: 'Outfit', sans-serif;}
 
-header h1 { font-size: var(--font-size-xxxl);}
+body { font-family: 'Outfit', sans-serif; }
+
+header h1 { font-size: var(--font-size-xxxl) }
 
 .section-selector-1 { background-color: var(--trend-700) }
 .section-selector-1 > .badge span { 
     color: var(--white-000);
     background-color: var(--trend-700);
-    text-transform: uppercase;
- }
+    text-transform: uppercase
+}
 
- .section-selector-2 { background-color: var(--trend-800) }
+.section-selector-2 { background-color: var(--trend-800) }
 
- .section-selector-3 { background-color: var(--trend-700) }
+.section-selector-3 { background-color: var(--trend-700) }
 
- .section-selector-4 h2 { font-weight: 400;}
+.section-selector-4.theme-dark { background-color: var(--trend-700) }
+.section-selector-4 div[class^='flex-cols-'] div[class^='col-'] figure.icon { color: var(--blue-300) }
 
- .section-selector-4.theme-dark { background-color: var(--trend-700) }
- .section-selector-4 div[class^='flex-cols-'] div[class^='col-'] figure.icon { color: var(--blue-300) }
+.section-selector-1 h2,
+.section-selector-2 h2,
+.section-selector-3 h2,
+.section-selector-4 h2 { font-weight: 400 }
 
+footer.theme-dark { background-color: var(--trend-800); font-family: 'Arial' }
+footer.theme-dark .privacy { background-color: var(--trend-800) }
+footer.theme-dark > ul.footer-links li a:visited { color: var(--sky-300) }
 
- 
+footer.theme-dark > ul.footer-links li a:visited { text-decoration-color: var(--sky-300) }
 
+footer.theme-dark > ul.footer-icons li a:link i,
+footer.theme-dark > ul.footer-icons li a:visited i { color: var(--sky-300) }
 
+footer.theme-dark .privacy p { color: var(--sky-300) }
