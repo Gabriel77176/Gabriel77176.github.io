@@ -8,7 +8,7 @@
     "dev": "nodemon app.js"
   },
   "keywords": [],
-  "author": "Mary Smith",
+  "author": "Gabriel Dezon",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2"

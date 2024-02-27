@@ -11,7 +11,7 @@ app.use(express.json());
     
 app.use(soccerPlayerRoutes);
 
-// Mary Smith, JavaScript Developer
+// Gabriel Dezon, JavaScript Developer
 async function connectToMongoDB() {
     try {
         await mongoose.connect((mongoDBUri), { 
